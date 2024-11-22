@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.webkit-bg-clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+}

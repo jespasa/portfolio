@@ -13,7 +13,7 @@ const SkillsSections = () => {
           <ExperienceSection />
         </article>
         <article>
-          <h2 className="mr-3 text-2xl font-semibold hover:text-white text-[#ADB7BE] border-b border-green-300">
+          <h2 className="mr-3 mt-8 text-2xl font-semibold hover:text-white text-[#ADB7BE] border-b border-green-300">
             Skills
           </h2>
           <ul className="grid grid-cols-3 md:grid-cols-5 gap-5 mt-4 justify-items-center items-center">
@@ -105,9 +105,22 @@ const SkillsSections = () => {
             </li>
           </ul>
         </article>
-        <span className="mr-3 text-2xl font-semibold hover:text-white text-[#ADB7BE]">
-          Education
-        </span>
+        <article>
+          <h2 className="mr-3 mt-12 text-2xl font-semibold hover:text-white text-[#ADB7BE] border-b border-green-300">
+            Projects
+          </h2>
+          <Image
+            src="/images/building-green.png"
+            alt="building page image"
+            width={500}
+            height={500}
+            className="drop-shadow-[0_0_10px_rgba(134,238,172,0.5)] mt-10 justify-self-center"
+          />
+          <h5 className="text-white text-sm mt-4 justify-self-center">
+            This portfolio is my first personal project. I'm working in a new
+            one.
+          </h5>
+        </article>
       </div>
     </section>
   );
