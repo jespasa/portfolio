@@ -12,7 +12,7 @@ const SkillsSections = () => {
           </h2>
           <ExperienceSection />
         </article>
-        <article>
+        <article id="skills" className="scroll-mt-14 sm:scroll-mt-10">
           <h2 className="mr-3 mt-8 text-2xl font-semibold hover:text-white text-[#ADB7BE] border-b border-green-300">
             Skills
           </h2>
@@ -116,9 +116,9 @@ const SkillsSections = () => {
             height={500}
             className="drop-shadow-[0_0_10px_rgba(134,238,172,0.5)] mt-10 justify-self-center"
           />
-          <h5 className="text-white text-sm mt-4 justify-self-center">
-            This portfolio is my first personal project. I'm working in a new
-            one.
+          <h5 className="text-[#ADB7BE] text-sm mt-4 justify-self-center">
+            This portfolio is my first personal project. I&apos;m working in a
+            new one.
           </h5>
         </article>
       </div>

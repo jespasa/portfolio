@@ -37,19 +37,16 @@ const HeroSection = () => {
           </h1>
         </div>
         <div className="flex flex-col items-center gap-4 col-start-9 col-span-4 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[270px] h-[270px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/hero-image.png"
               alt="hero image"
-              className="rounded-full  w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="rounded-full  w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 drop-shadow-[0_0_10px_rgba(134,238,172,0.5)]"
               width={300}
               height={300}
             />
           </div>
-          {/*           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl">
-            Facta, non verba
-          </p> */}
-          <div className="flex flex-col gap-4 w-full sm:flex-row items-center">
+          <div className="flex flex-col gap-4 w-full lg:flex-row items-center">
             <Link
               href="https://www.linkedin.com/in/jose-espasa-saval/"
               target="_blank"
