@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
@@ -48,15 +49,38 @@ const HeroSection = () => {
           {/*           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl">
             Facta, non verba
           </p> */}
-          <div>
-            <button className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-500 via-green-300 to-cyan-200 hover:bh-slate-200 text-[#121212]">
-              Hire me
-            </button>
-            <button className="px-0.5 py-0.5 w-full sm:w-fit mt-3 rounded-full bg-gradient-to-br from-green-500 via-green-300 to-cyan-200 hover:bh-slate-200">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-3.5 py-3 text-white">
-                Download CV
+          <div className="flex flex-col gap-4 w-full sm:flex-row items-center">
+            <Link
+              href="https://www.linkedin.com/in/jose-espasa-saval/"
+              target="_blank"
+              className="px-0.5 py-0.5  inline-block  w-full rounded-full bg-gradient-to-br from-green-500 via-green-300 to-cyan-200 hover:bh-slate-200 text-[#121212]">
+              <span className="flex flex-row gap-3 px-3.5 py-3 w-full justify-center items-center font-medium hover:bg-gradient-to-br hover:to-green-100 hover:from-cyan-200  rounded-full">
+                <Image
+                  src="/images/linkedin.svg"
+                  alt="linkedin icon"
+                  width={20}
+                  height={20}
+                />
+                LinkedIn
               </span>
-            </button>
+            </Link>
+            <Link
+              className="px-0.5 py-0.5 w-full rounded-full bg-gradient-to-br from-green-500 via-green-300 to-cyan-200 hover:bh-slate-200"
+              href="/Jose_Espasa_CV.pdf"
+              target="_blank"
+              download="Jose_Espasa_CV">
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-3.5 py-3 text-white ">
+                <span className="flex felx-row gap-3 justify-center items-center">
+                  <Image
+                    src="/images/pdf-icon.png"
+                    alt="pdf icon"
+                    width={20}
+                    height={20}
+                  />
+                  Download CV
+                </span>
+              </span>
+            </Link>
           </div>
         </div>
       </div>
