@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="text-white mt-5">
+    <section id="about" className="text-white mt-5">
       <article>
         <div className="lg:grid lg:grid-cols-2 gap-8 justify-items-center items-center py-8 px-4 sm:py-16 xl:py-16">
           <Image

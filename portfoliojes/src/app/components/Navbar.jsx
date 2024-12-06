@@ -1,16 +1,14 @@
 "use client";
 import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 const navLinks = [
+  { title: "Skills", path: "#skills" },
   {
     title: "About",
     path: "#about",
   },
-  { title: "Projects", path: "#projects" },
   {
     title: "Contact",
     path: "#contact",
@@ -47,7 +45,12 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? (
+        <MenuOverlay
+          togleNavBar={() => setNavbarOpen(false)}
+          links={navLinks}
+        />
+      ) : null}
     </nav>
   );
 };
