@@ -52,11 +52,12 @@ const ButtonGoUp = () => {
         transform: showButton ? "scale(1)" : "scale(0.9)", // Efecto de zoom
         transition: "opacity 0.3s ease, transform 0.3s ease", // Animación suave
         pointerEvents: showButton ? "auto" : "none", // Evita clics cuando no es visible
+        textAlign: "-webkit-center",
       }}
       className="fixed w-10 h-10 rounded-full bottom-6 right-6 bg-gradient-to-br from-green-500 via-green-300 to-cyan-200 cursor-pointer z-10"
       onClick={handleScrollToTopAndResetURL}>
       <Image
-        className="-rotate-90 justify-self-center"
+        className="-rotate-90"
         src="/images/arrow.png"
         alt="arrow icon"
         width={35}
