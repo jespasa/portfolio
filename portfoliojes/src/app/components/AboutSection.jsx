@@ -21,7 +21,7 @@ const AboutSection = () => {
                 <span className="font-bold text-[#86EEAC]"> JES</span>. I have
                 more than{" "}
                 <span className="font-bold text-[#86EEAC]">
-                  3 years of experience
+                  4 years of experience
                 </span>{" "}
                 building web aplications for an important retailer company in
                 the retail sector.
@@ -29,11 +29,10 @@ const AboutSection = () => {
               <p className="text-base lg:text-lg">
                 In this years{" "}
                 <span className="font-bold text-[#86EEAC]">
-                  I have been especializated in Vue.js framework
+                  I have been especializated in React and Vue.js framework
                 </span>
-                , although I have created some aplications with React. As well,
-                I jumped to the backend ecosistem to help them to implements
-                some new features or APIs sometimes.
+                . As well, I have jumped to the backend ecosistem to help
+                backend developers to implements some new features or new APIs.
               </p>
             </div>
           </div>

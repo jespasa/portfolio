@@ -9,21 +9,22 @@ const ExperienceSection = () => {
             <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-300">
               <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-green-300">
                 <h3 className="text-xl font-semibold tracking-wide text-green-300">
-                  Frontend Developer
+                  FullStack Developer
                 </h3>
                 <h4 className="text-md font-semibold tracking-wide text-grey-400">
                   Jogo
                 </h4>
                 <time className="mt-1 text-xs tracking-wide uppercase text-gray-600">
-                  August 2021 - now
+                  February 2021 - February 2025
                 </time>
                 <p className="mt-3">
-                  I have been developing web apps with VUE 3 most of the time. I
-                  have created new projects, components, responsive
+                  I have been developing web apps with VUE 3 and React most of
+                  the time. I have created new projects, components, responsive
                   interfaces... As well, I have also worked in the manteniece of
-                  projects. The rest of the time, I have developed some projects
-                  with REACT, I have jumped to backend to implement some new
-                  feature or help building APIs.
+                  projects. The rest of the time, I have jumped to backend to
+                  implement some new feature and building APIs using Java Spring
+                  Boot. In the same time, I have been developing SQL scripts to
+                  create and update tables, dml and ddl.
                 </p>
               </div>
               <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-green-300">
