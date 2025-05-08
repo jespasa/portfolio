@@ -18,13 +18,14 @@ const ExperienceSection = () => {
                   February 2021 - February 2025
                 </time>
                 <p className="mt-3">
-                  I have been developing web apps with VUE 3 and React most of
-                  the time. I have created new projects, components, responsive
-                  interfaces... As well, I have also worked in the manteniece of
-                  projects. The rest of the time, I have jumped to backend to
-                  implement some new feature and building APIs using Java Spring
-                  Boot. In the same time, I have been developing SQL scripts to
-                  create and update tables, dml and ddl.
+                  I have mostly been developing web applications using VUE 3 and
+                  React most of the time. I have created new projects,
+                  components, responsive interfaces... I have also worked on the
+                  maintenance of projects. Additionally, I have contributed to
+                  backend by implementing new feature and building APIs using
+                  Java Spring Boot. At the same time, I have been developing SQL
+                  scripts for creating and updating tables, including DML and
+                  DDL operations.
                 </p>
               </div>
               <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-green-300">
@@ -38,9 +39,9 @@ const ExperienceSection = () => {
                   Febrary 2020 - August 2020
                 </time>
                 <p className="mt-3">
-                  It was my first contact with the development world. There I
-                  work doing frontend and backend task. I used GWT, Struts, JPA
-                  and MySQL to develop projects.
+                  It was my first experience in the development world. There, I
+                  worked on both frontend and backend tasks. I used GWT, Struts,
+                  JPA and MySQL to develop projects.
                 </p>
               </div>
             </div>

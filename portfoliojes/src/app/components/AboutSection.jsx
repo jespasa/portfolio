@@ -29,7 +29,7 @@ const AboutSection = () => {
               <p className="text-base lg:text-lg">
                 In this years{" "}
                 <span className="font-bold text-[#86EEAC]">
-                  I have been especializated in React and Vue.js framework
+                  I have been specialized in React and Vue.js framework
                 </span>
                 . As well, I have jumped to the backend ecosistem to help
                 backend developers to implements some new features or new APIs.
